@@ -19,7 +19,7 @@
 ---
 
 ## 🌐 Socials
-https://www.linkedin.com/in/dante-estrella-414686281/
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dante-estrella-414686281/)
 
 ---
 
