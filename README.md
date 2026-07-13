@@ -4,7 +4,7 @@
 </h3>
 
 <p align="center">
-  <a href="https://github.com/Dante201220/Dante201220"><img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=Hi+%2C+I'm+Dante;Software+Developer+%26+Systems+Analyst;Web+Dev+%7C+Game+Dev;Always+learning+and+building"></a>
+  <a href="https://github.com/Dante201220/Dante201220"><img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=Hi+%2C+I'm+Dante;Software+Developer+%26+Systems+Analyst;Web+Dev+%7C++learning+and+building"></a>
 </p>
 
 ---
