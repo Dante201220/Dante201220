@@ -19,7 +19,7 @@
 ---
 
 ## 🌐 Socials
-
+https://www.linkedin.com/in/dante-estrella-414686281/
 
 ---
 
