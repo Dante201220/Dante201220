@@ -187,7 +187,7 @@ body {
     color: var(--dark);
 }
 
-/* Sección Proyectos (Efecto Deslizamiento Seguro) */
+/* Sección Proyectos (Slider Horizontal Moderno con Scroll-Snap) */
 .inventario {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -195,7 +195,7 @@ body {
     justify-content: center;
 }
 
-.juego {
+.imagenes {
     background: var(--white);
     border-radius: 12px;
     overflow: hidden;
@@ -211,33 +211,33 @@ body {
 }
 
 .image-container {
-    position: relative;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
     width: 100%;
-    height: 200px; 
-    overflow: hidden;
+    height: 220px; /* Un toque más alto para que las capturas luzcan de diez */
     background-color: #eaeaea;
+    scroll-behavior: smooth;
 }
 
-.img-primaria, .img-secundaria {
+.image-container img {
+    flex: 0 0 100%;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: transform 0.5s ease-in-out;
+    scroll-snap-align: start;
 }
 
-.img-secundaria {
-    transform: translateX(100%); 
+/* Barra de scroll horizontal fina y personalizada en turquesa */
+.image-container::-webkit-scrollbar {
+    height: 6px;
 }
-
-.juego:hover .img-primaria {
-    transform: translateX(-100%);
+.image-container::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
 }
-
-.juego:hover .img-secundaria {
-    transform: translateX(0);
+.image-container::-webkit-scrollbar-track {
+    background: #edf2f4;
 }
 
 .info {
